@@ -1,0 +1,16 @@
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.csprojAssemblyReference.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.AssemblyInfoInputs.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.AssemblyInfo.cs
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.csproj.CoreCompileInputs.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\bin\Debug\net5.0\DayTwoPractice.exe
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\bin\Debug\net5.0\DayTwoPractice.deps.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\bin\Debug\net5.0\DayTwoPractice.runtimeconfig.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\bin\Debug\net5.0\DayTwoPractice.runtimeconfig.dev.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\bin\Debug\net5.0\DayTwoPractice.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\bin\Debug\net5.0\ref\DayTwoPractice.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\bin\Debug\net5.0\DayTwoPractice.pdb
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\ref\DayTwoPractice.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.pdb
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\AssignmentsWeek1\DayTwoPractice\obj\Debug\net5.0\DayTwoPractice.genruntimeconfig.cache

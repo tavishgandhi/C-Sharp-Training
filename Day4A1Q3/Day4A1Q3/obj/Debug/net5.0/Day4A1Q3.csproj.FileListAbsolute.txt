@@ -1,0 +1,16 @@
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\bin\Debug\net5.0\Day4A1Q3.exe
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\bin\Debug\net5.0\Day4A1Q3.deps.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\bin\Debug\net5.0\Day4A1Q3.runtimeconfig.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\bin\Debug\net5.0\Day4A1Q3.runtimeconfig.dev.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\bin\Debug\net5.0\Day4A1Q3.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\bin\Debug\net5.0\ref\Day4A1Q3.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\bin\Debug\net5.0\Day4A1Q3.pdb
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.csprojAssemblyReference.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.AssemblyInfoInputs.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.AssemblyInfo.cs
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.csproj.CoreCompileInputs.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\ref\Day4A1Q3.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.pdb
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\Day4A1Q3\Day4A1Q3\obj\Debug\net5.0\Day4A1Q3.genruntimeconfig.cache
