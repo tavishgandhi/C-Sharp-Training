@@ -25,14 +25,25 @@ namespace Day4A2Q2
             // 3.CustomMax - Should work as Max operation of Linq, with custom logic passed as delegate
             int result = list.CustomMax();
             Console.WriteLine("Custom Max same as Linq Max" + result);
-            result = list.CustomMax();
-            Console.WriteLine(list.CustomMax());
-            Console.WriteLine("Custom Max with custom logic = " + res);
 
             //4.CustomMin - Should work as Min operation of Linq, with custom logic passed as delegate
             result = list.CustomMin();
-            Console.WriteLine(
-                );
+            Console.WriteLine("Custom Min same as Linq Min = " + result);
+
+            //5.CustomWhere 
+            var _list = list.CustomWhere(num => num > 5);
+            foreach(int i in _list)
+            {
+                Console.WriteLine(i);
+            }
+
+            // Custom Select
+            var l = from num in list
+            where num > 5
+            select num;
+            foreach(var i in l)
+                Console.WriteLine(i);
+
 
         }
     }

@@ -1,0 +1,16 @@
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\bin\Debug\net5.0\PriorityQueue.exe
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\bin\Debug\net5.0\PriorityQueue.deps.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\bin\Debug\net5.0\PriorityQueue.runtimeconfig.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\bin\Debug\net5.0\PriorityQueue.runtimeconfig.dev.json
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\bin\Debug\net5.0\PriorityQueue.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\bin\Debug\net5.0\ref\PriorityQueue.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\bin\Debug\net5.0\PriorityQueue.pdb
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.csprojAssemblyReference.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.AssemblyInfoInputs.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.AssemblyInfo.cs
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.csproj.CoreCompileInputs.cache
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\ref\PriorityQueue.dll
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.pdb
+C:\Users\tavishgandhi\Desktop\NagarroAssignments\PriorityQueue\PriorityQueue\obj\Debug\net5.0\PriorityQueue.genruntimeconfig.cache

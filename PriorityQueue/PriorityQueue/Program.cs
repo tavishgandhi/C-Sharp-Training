@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PriorityQueue
 {
@@ -7,230 +8,100 @@ namespace PriorityQueue
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Priority Queueu with Way 1 : - ");
+            PriorityQueue1<int> queue = new PriorityQueue1<int>();
+            queue.Enqueue(1, 1);
+            queue.Enqueue(2, 1);
+            queue.Enqueue(1, 2);
+            queue.Enqueue(1, 3);
+            queue.Enqueue(3, 1);
+            queue.Enqueue(4, 89);
+            queue.Enqueue(4, 1);
+            queue.Enqueue(3, 7);
+
+            Console.WriteLine("Queue count  = "+ queue.Count());
+            Console.WriteLine("Contains 3  = " + queue.Contains(3));
+            Console.WriteLine("Peek = " + queue.Peek());
+
+            Console.WriteLine("Dequed element  = " + queue.Dequeue());
+            Console.WriteLine("Contains 7  = " + queue.Contains(7));
+            Console.WriteLine("Contains 89  = " + queue.Contains(89));
+            Console.WriteLine("Peek = " + queue.Peek());
+
+            Console.WriteLine("------------------------------------------------ ");
+
+            Console.WriteLine("Priority Queueu with Way 2 : - ");
+            PriorityQueue2<Person> q2 = new PriorityQueue2<Person>();
+            q2.Enqueue(new Person(1, "Tavish"));
+            q2.Enqueue(new Person(2, "Anmol"));
+            q2.Enqueue(new Person(1, "Gayatri"));
+            q2.Enqueue(new Person(4 , "Guri"));
+            q2.Enqueue(new Person(2, "Deevesh"));
+            q2.Enqueue(new Person(2, " Coomon"));
+            q2.Enqueue(new Person(4, "ttataol"));
             
+            Console.WriteLine(q2.Count());
+            Console.WriteLine("Peek  = " + q2.Peek());
+            Console.WriteLine("Deques = " + q2.Dequeue());
+            Console.WriteLine("Peek  = " + q2.Peek());
+            Person p = new Person(2, "Anmol");
+            Console.WriteLine("Contains Anmol = " + q2.Contains(p));
+            Console.WriteLine(q2.Count());
+
+
+            Console.WriteLine("------------------------------------------------ ");
+            Console.WriteLine("Priority Queueu with Way 3 : - ");
+            PriorityQueue3<int> q3 = new PriorityQueue3<int>();
+            q3.Enqueue(1,2);
+            q3.Enqueue(2, 3);
+            q3.Enqueue(3, 5);
+            q3.Enqueue(1, 2);
+            q3.Enqueue(4, 2);
+            q3.Enqueue(2, 2);
+            q3.Enqueue(7, 10);
+            Console.WriteLine("Count = " + q3.Count());
+            Console.WriteLine("Peek  = " + q3.Peek());
+            Console.WriteLine("Dequed element "  +q3.Dequeue());
+            Console.WriteLine("Count = " + q3.Count());
+            Console.WriteLine("Contains 2 = " + q3.Contains(3));
+
+
         }
     }
-
-    class PriorityQueue<T> where T : IEquatable<T>
+    public class Person : IPriority, IEquatable<Person>
     {
-        private IDictionary<int, IList<T>> elements;
-        private int size;
-        bool isMinPriorityQueue;
-
-        // Default Constructor
-        public PriorityQueue()
+        public int Priority { get; set; }
+        public string value { get; set; }
+        public Person(int p, string v)
         {
-            elements = new Dictionary<int, IList<T>>();
-            size = 0;
-            isMinPriorityQueue = false;
+            this.Priority = p;
+            this.value = v;
         }
-        // Parametrised Constructor
-        public PriorityQueue(IDictionary<int, IList<T>> elements, bool MinProrityQueue = false):this ()
+
+        public bool Equals(Person p)
         {
-            this.elements = elements;
-            foreach(T item in elements.Values)
+            if (p == null)
+                return false;
+            return this.value == p.value;
+        }
+        public override string ToString()
+        {
+            return this.value.ToString();
+        }
+        public override int GetHashCode()
+        {
+            if (this.Priority == null)
             {
-
-            }
-            this.size = elements.Count;
-            this.isMinPriorityQueue = MinProrityQueue;
-        }
-
-        private void MaxHeapify(int i)
-        {
-            int left = i * 2 + 1;
-            int right = i * 2 + 2;
-
-            int heighst = i;
-
-            if (left <= heapSize && queue[heighst].Priority < queue[left].Priority)
-                heighst = left;
-            if (right <= heapSize && queue[heighst].Priority < queue[right].Priority)
-                heighst = right;
-
-            if (heighst != i)
-            {
-                Swap(heighst, i);
-                MaxHeapify(heighst);
-            }
-        }
-        private void MinHeapify(int i)
-        {
-            int left = ChildL(i);
-            int right = ChildR(i);
-
-            int lowest = i;
-
-            if (left <= heapSize && queue[lowest].Priority > queue[left].Priority)
-                lowest = left;
-            if (right <= heapSize && queue[lowest].Priority > queue[right].Priority)
-                lowest = right;
-
-            if (lowest != i)
-            {
-                Swap(lowest, i);
-                MinHeapify(lowest);
-            }
-        }
-        // Count function - returning count of priority queue
-        public int Count()
-        {
-            return this.size;
-        }
-
-        // Whether priority queue contains the given function
-        public bool Contains(T item)
-        {
-            foreach(List<T> element in elements.Values)
-            {
-                if (item.Equals(element))
-                {
-                    return true;
-                }
-            }
-            return false;
-
-        }
-
-
-// Dque ----------------------------------------------------------------
-        private void MaxHeapify(int heapSize, List<T> list, int i)
-        {
-            int left = 2 * i + 1;
-            int right = 2 * i + 2;
-
-            int heighst = i;
-
-            T maxChild =  
-            if (left <= heapSize && list[i] < list[left])
-                heighst = left;
-            if (right <= heapSize && queue[heighst].Priority < queue[right].Priority)
-                heighst = right;
-
-            if (heighst != i)
-            {
-                Swap(heighst, i);
-                MaxHeapify(heighst);
-            }
-        }
-        private void MinHeapify(int i)
-        {
-            int left = ChildL(i);
-            int right = ChildR(i);
-
-            int lowest = i;
-
-            if (left <= heapSize && queue[lowest].Priority > queue[left].Priority)
-                lowest = left;
-            if (right <= heapSize && queue[lowest].Priority > queue[right].Priority)
-                lowest = right;
-
-            if (lowest != i)
-            {
-                Swap(lowest, i);
-                MinHeapify(lowest);
-            }
-        }
-        // Dequeue
-        public T Dequeue()
-        {
-            if (this.size == 0)
-                throw new Exception("priority Queue is empty.");
-            else
-            {
-                // getting the max priority list elements 
-                int maxPriority = GetHighestPriority();
-                var maxPriorityList = (List<T>)elements[maxPriority];
-
-                // dequed element
-                var dequedElement = maxPriorityList[0];
-
-                maxPriorityList[0] = maxPriorityList[maxPriorityList.Count];
-                maxPriorityList.RemoveAt(maxPriorityList.Count);
-                this.size--;
-
-                // List of given particular priority is empty and thus removed
-                if(maxPriorityList.Count == 0)
-                {
-                    elements.Remove(maxPriority);
-                }
-                else
-                {
-                    int heapSize = maxPriorityList.Count;
-                    int i = 0;
-                    if (!isMinPriorityQueue)
-                    {
-                        MaxHeapify(maxPriorityList.Count, maxPriorityList, i );
-                    }
-                    else
-                        MaxHeapify(0);
-                }
-                
-                //Maintaining lowest or highest at root based on min or max queue
-                
-                return dequedElement;
-            }
-        }
-        public void Swap(List<T> list, int i, int j)
-        {
-            T temp = list[i];
-            list[i] = list[j];
-            list[j] = temp;
-        }
-
-
-        public void Enqueue(int priority, T item)
-        {
-            this.size++;
-            if (elements.ContainsKey(priority))
-            {
-                List<T> list = (List<T>)elements[priority];
-                int heapsize = list.Count;
-
-                if (this.isMinPriorityQueue)
-                {
-                    
-                    while (heapsize >= 0 && list[(heapsize - 1) / 2] > list[heapsize])
-                    {
-                        Swap(list, heapsize, (heapsize - 1) / 2);
-                        heapsize = (heapsize - 1) / 2;
-                    }
-                }
-                else
-                {
-                    while (heapsize >= 0 && list[(heapsize - 1) / 2] < list[heapsize])
-                    {
-                        Swap(list, heapsize, (heapsize - 1) / 2);
-                        heapsize = (heapsize - 1) / 2;
-                    }
-                }
+                return 0;
             }
             else
             {
-                List<T> list = new List<T>();
-                list.Add(item);
-                elements.Add(priority, list);
-            }            
-        }
-
-        public T Peek()
-        {
-            int maxPriority = GetHighestPriority();
-
-
-        }
-
-        private int GetHighestPriority()
-        {
-            var list = elements.Keys;
-            int max = Int32.MinValue;
-            foreach(int priority in list)
-            {
-                max = Math.Max(priority, max);
+                return this.Priority.GetHashCode();
             }
-            return max;
         }
+
 
     }
+
 
 }
